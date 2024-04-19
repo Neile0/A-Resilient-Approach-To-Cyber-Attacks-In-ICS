@@ -1,0 +1,251 @@
+DEBUG PLC10P
+DEBUG get_query: SELECT value FROM vessel_cps WHERE name = ? AND pid = ?
+DEBUG set_query: UPDATE vessel_cps SET value = ? WHERE name = ? AND pid = ?
+DEBUG EnipProtocol server addr:  192.168.1.40
+DEBUG: concatenating server address with default port.
+DEBUG enip _start_server cmd:  ['/usr/bin/python3', '-m', 'cpppo.server.enip', '--no-print', '--log', 'logs/protocols_tests_enip_server', '--address', '192.168.1.40:44818', '10P_LVL:2=REAL', '10P_VALVE_IN:2=INT', '10P_VALVE_OUT:2=INT', '10P_PUMP:2=INT']
+DEBUG: PLC10P enters pre_loop
+DEBUG: PLC10P enters main_loop
+2024-04-19 01:38:43.524806 PLC10P tank level 5.900
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 2248, in <module>
+    sys.exit( main() )
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 2177, in main
+    with connector_cls( host=addr[0], port=addr[1], timeout=timeout, profiler=profiler,
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 1250, in __init__
+    super( connector, self ).__init__( host=host, port=port, timeout=timeout, **kwds )
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 436, in __init__
+    self.conn		= socket.create_connection( self.addr, timeout=timeout )
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 2248, in <module>
+    sys.exit( main() )
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 2177, in main
+    with connector_cls( host=addr[0], port=addr[1], timeout=timeout, profiler=profiler,
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 1250, in __init__
+    super( connector, self ).__init__( host=host, port=port, timeout=timeout, **kwds )
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 436, in __init__
+    self.conn		= socket.create_connection( self.addr, timeout=timeout )
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 2248, in <module>
+    sys.exit( main() )
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 2177, in main
+    with connector_cls( host=addr[0], port=addr[1], timeout=timeout, profiler=profiler,
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 1250, in __init__
+    super( connector, self ).__init__( host=host, port=port, timeout=timeout, **kwds )
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 436, in __init__
+    self.conn		= socket.create_connection( self.addr, timeout=timeout )
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+2024-04-19 01:39:08.945211 PLC10P tank level 3.900
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 2248, in <module>
+    sys.exit( main() )
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 2177, in main
+    with connector_cls( host=addr[0], port=addr[1], timeout=timeout, profiler=profiler,
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 1250, in __init__
+    super( connector, self ).__init__( host=host, port=port, timeout=timeout, **kwds )
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 436, in __init__
+    self.conn		= socket.create_connection( self.addr, timeout=timeout )
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 2248, in <module>
+    sys.exit( main() )
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 2177, in main
+    with connector_cls( host=addr[0], port=addr[1], timeout=timeout, profiler=profiler,
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 1250, in __init__
+    super( connector, self ).__init__( host=host, port=port, timeout=timeout, **kwds )
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 436, in __init__
+    self.conn		= socket.create_connection( self.addr, timeout=timeout )
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+2024-04-19 01:39:28.058087 PLC10P tank level 1.900
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 2248, in <module>
+    sys.exit( main() )
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 2177, in main
+    with connector_cls( host=addr[0], port=addr[1], timeout=timeout, profiler=profiler,
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 1250, in __init__
+    super( connector, self ).__init__( host=host, port=port, timeout=timeout, **kwds )
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 436, in __init__
+    self.conn		= socket.create_connection( self.addr, timeout=timeout )
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 2248, in <module>
+    sys.exit( main() )
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 2177, in main
+    with connector_cls( host=addr[0], port=addr[1], timeout=timeout, profiler=profiler,
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 1250, in __init__
+    super( connector, self ).__init__( host=host, port=port, timeout=timeout, **kwds )
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 436, in __init__
+    self.conn		= socket.create_connection( self.addr, timeout=timeout )
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+INFO PLC10P: level under LOW -> close OUTPUT VALUE and shutdown PUMP, open INPUT VALVE
+2024-04-19 01:40:21.680745 PLC10P tank level 0.100
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 2248, in <module>
+    sys.exit( main() )
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 2177, in main
+    with connector_cls( host=addr[0], port=addr[1], timeout=timeout, profiler=profiler,
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 1250, in __init__
+    super( connector, self ).__init__( host=host, port=port, timeout=timeout, **kwds )
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 436, in __init__
+    self.conn		= socket.create_connection( self.addr, timeout=timeout )
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 2248, in <module>
+    sys.exit( main() )
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 2177, in main
+    with connector_cls( host=addr[0], port=addr[1], timeout=timeout, profiler=profiler,
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 1250, in __init__
+    super( connector, self ).__init__( host=host, port=port, timeout=timeout, **kwds )
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 436, in __init__
+    self.conn		= socket.create_connection( self.addr, timeout=timeout )
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+WARNING PLC10P: level under EXTREME (LL): 0.100 <= 1
+2024-04-19 01:41:06.782168 PLC10P tank level 3.200
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 2248, in <module>
+    sys.exit( main() )
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 2177, in main
+    with connector_cls( host=addr[0], port=addr[1], timeout=timeout, profiler=profiler,
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 1250, in __init__
+    super( connector, self ).__init__( host=host, port=port, timeout=timeout, **kwds )
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 436, in __init__
+    self.conn		= socket.create_connection( self.addr, timeout=timeout )
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 2248, in <module>
+    sys.exit( main() )
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 2177, in main
+    with connector_cls( host=addr[0], port=addr[1], timeout=timeout, profiler=profiler,
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 1250, in __init__
+    super( connector, self ).__init__( host=host, port=port, timeout=timeout, **kwds )
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 436, in __init__
+    self.conn		= socket.create_connection( self.addr, timeout=timeout )
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+OSError: [Errno 113] No route to host
+2024-04-19 01:46:45.850163 PLC10P tank level 6.300
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 2248, in <module>
+    sys.exit( main() )
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 2177, in main
+    with connector_cls( host=addr[0], port=addr[1], timeout=timeout, profiler=profiler,
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 1250, in __init__
+    super( connector, self ).__init__( host=host, port=port, timeout=timeout, **kwds )
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 436, in __init__
+    self.conn		= socket.create_connection( self.addr, timeout=timeout )
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+OSError: [Errno 113] No route to host
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 2248, in <module>
+    sys.exit( main() )
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 2177, in main
+    with connector_cls( host=addr[0], port=addr[1], timeout=timeout, profiler=profiler,
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 1250, in __init__
+    super( connector, self ).__init__( host=host, port=port, timeout=timeout, **kwds )
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 436, in __init__
+    self.conn		= socket.create_connection( self.addr, timeout=timeout )
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+OSError: [Errno 113] No route to host
+2024-04-19 01:47:24.480774 PLC10P tank level 9.400

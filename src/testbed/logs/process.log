@@ -1,0 +1,364 @@
+DEBUG get_query: SELECT value FROM vessel_cps WHERE name = ? AND pid = ?
+DEBUG set_query: UPDATE vessel_cps SET value = ? WHERE name = ? AND pid = ?
+DEBUG: VesselBallast has no networking capabilities.
+DEBUG entering pre loop 
+DEBUG entering main loop
+10S Valve: 1
+2024-04-19 01:38:59.797625 Roll: -15.375 Pitch: 0 5.100  | 10P: 4.900
+10S Valve: 1
+2024-04-19 01:39:00.466239 Roll: -15.000 Pitch: 0 5.200  | 10P: 4.800
+10S Valve: 1
+2024-04-19 01:39:00.883353 Roll: -14.625 Pitch: 0 5.300  | 10P: 4.700
+10S Valve: 1
+2024-04-19 01:39:01.432467 Roll: -14.250 Pitch: 0 5.400  | 10P: 4.600
+10S Valve: 1
+2024-04-19 01:39:02.428614 Roll: -13.875 Pitch: 0 5.500  | 10P: 4.500
+10S Valve: 1
+2024-04-19 01:39:02.996082 Roll: -13.500 Pitch: 0 5.600  | 10P: 4.400
+10S Valve: 1
+2024-04-19 01:39:03.721533 Roll: -13.125 Pitch: 0 5.700  | 10P: 4.300
+10S Valve: 1
+2024-04-19 01:39:04.525525 Roll: -12.750 Pitch: 0 5.800  | 10P: 4.200
+10S Valve: 1
+2024-04-19 01:39:05.302948 Roll: -12.375 Pitch: 0 5.900  | 10P: 4.100
+10S Valve: 1
+2024-04-19 01:39:06.433314 Roll: -12.000 Pitch: 0 6.000  | 10P: 4.000
+10S Valve: 1
+2024-04-19 01:39:08.560770 Roll: -11.625 Pitch: 0 6.100  | 10P: 3.900
+10S Valve: 1
+2024-04-19 01:39:09.569936 Roll: -11.250 Pitch: 0 6.200  | 10P: 3.800
+10S Valve: 1
+2024-04-19 01:39:10.583668 Roll: -10.875 Pitch: 0 6.300  | 10P: 3.700
+10S Valve: 1
+2024-04-19 01:39:11.360844 Roll: -10.500 Pitch: 0 6.400  | 10P: 3.600
+10S Valve: 1
+2024-04-19 01:39:12.059103 Roll: -10.125 Pitch: 0 6.500  | 10P: 3.500
+10S Valve: 1
+2024-04-19 01:39:12.762641 Roll: -9.750 Pitch: 0 6.600  | 10P: 3.400
+10S Valve: 1
+2024-04-19 01:39:14.131225 Roll: -9.375 Pitch: 0 6.700  | 10P: 3.300
+10S Valve: 1
+2024-04-19 01:39:14.777919 Roll: -9.000 Pitch: 0 6.800  | 10P: 3.200
+10S Valve: 1
+2024-04-19 01:39:15.317376 Roll: -8.625 Pitch: 0 6.900  | 10P: 3.100
+10S Valve: 1
+2024-04-19 01:39:15.820561 Roll: -8.250 Pitch: 0 7.000  | 10P: 3.000
+10S Valve: 1
+2024-04-19 01:39:16.870888 Roll: -7.875 Pitch: 0 7.100  | 10P: 2.900
+10S Valve: 1
+2024-04-19 01:39:19.522029 Roll: -7.500 Pitch: 0 7.200  | 10P: 2.800
+10S Valve: 1
+2024-04-19 01:39:20.865837 Roll: -7.125 Pitch: 0 7.300  | 10P: 2.700
+10S Valve: 1
+2024-04-19 01:39:21.491416 Roll: -6.750 Pitch: 0 7.400  | 10P: 2.600
+10S Valve: 1
+2024-04-19 01:39:22.178690 Roll: -6.375 Pitch: 0 7.500  | 10P: 2.500
+10S Valve: 1
+2024-04-19 01:39:22.790589 Roll: -6.000 Pitch: 0 7.600  | 10P: 2.400
+10S Valve: 1
+2024-04-19 01:39:23.402571 Roll: -5.625 Pitch: 0 7.700  | 10P: 2.300
+10S Valve: 1
+2024-04-19 01:39:24.688948 Roll: -5.250 Pitch: 0 7.800  | 10P: 2.200
+10S Valve: 1
+2024-04-19 01:39:25.328079 Roll: -4.875 Pitch: 0 7.900  | 10P: 2.100
+10S Valve: 1
+2024-04-19 01:39:26.030344 Roll: -4.500 Pitch: 0 8.000  | 10P: 2.000
+10S Valve: 1
+2024-04-19 01:39:27.533820 Roll: -4.125 Pitch: 0 8.100  | 10P: 1.900
+10S Valve: 1
+2024-04-19 01:39:28.502890 Roll: -3.750 Pitch: 0 8.200  | 10P: 1.800
+10S Valve: 1
+2024-04-19 01:39:29.047784 Roll: -3.375 Pitch: 0 8.300  | 10P: 1.700
+10S Valve: 1
+2024-04-19 01:39:29.604971 Roll: -3.000 Pitch: 0 8.400  | 10P: 1.600
+10S Valve: 1
+2024-04-19 01:39:30.073929 Roll: -2.625 Pitch: 0 8.500  | 10P: 1.500
+10S Valve: 1
+2024-04-19 01:39:30.733775 Roll: -2.250 Pitch: 0 8.600  | 10P: 1.400
+10S Valve: 1
+2024-04-19 01:39:31.852402 Roll: -1.875 Pitch: 0 8.700  | 10P: 1.300
+10S Valve: 1
+2024-04-19 01:39:32.749341 Roll: -1.500 Pitch: 0 8.800  | 10P: 1.200
+10S Valve: 1
+2024-04-19 01:39:33.556157 Roll: -1.125 Pitch: 0 8.900  | 10P: 1.100
+10S Valve: 1
+2024-04-19 01:39:34.642266 Roll: -0.750 Pitch: 0 9.000  | 10P: 1.000
+10S Valve: 1
+2024-04-19 01:39:35.746428 Roll: -0.375 Pitch: 0 9.100  | 10P: 0.900
+WARNING: Tank 10S is above extreme level
+10S Valve: 1
+2024-04-19 01:39:36.265356 Roll: -0.000 Pitch: 0 9.200  | 10P: 0.800
+WARNING: Tank 10S is above extreme level
+10S Valve: 1
+2024-04-19 01:39:37.493211 Roll: 0.375 Pitch: 0 9.300  | 10P: 0.700
+WARNING: Tank 10S is above extreme level
+10S Valve: 1
+2024-04-19 01:39:39.362997 Roll: 0.750 Pitch: 0 9.400  | 10P: 0.600
+WARNING: Tank 10S is above extreme level
+10S Valve: 1
+2024-04-19 01:39:39.918473 Roll: 1.125 Pitch: 0 9.500  | 10P: 0.500
+WARNING: Tank 10S is above extreme level
+10S Valve: 1
+2024-04-19 01:39:40.489964 Roll: 1.500 Pitch: 0 9.600  | 10P: 0.400
+WARNING: Tank 10S is above extreme level
+10S Valve: 1
+2024-04-19 01:39:41.008937 Roll: 1.875 Pitch: 0 9.700  | 10P: 0.300
+WARNING: Tank 10S is above extreme level
+10S Valve: 1
+2024-04-19 01:39:41.773100 Roll: 2.250 Pitch: 0 9.800  | 10P: 0.200
+WARNING: Tank 10S is above extreme level
+10S Valve: 1
+2024-04-19 01:39:45.067539 Roll: 2.625 Pitch: 0 9.900  | 10P: 0.100
+WARNING: Tank 10S is above extreme level
+10S Valve: 1
+2024-04-19 01:39:48.772868 Roll: 3.000 Pitch: 0 10.000  | 10P: 0.000
+WARNING: Tank 10S is above extreme level
+10S Valve: 1
+2024-04-19 01:39:56.419986 Roll: 3.375 Pitch: 0 10.100  | 10P: -0.100
+WARNING: Tank 10S is above extreme level
+10S Valve: 0
+2024-04-19 01:40:09.748782 Roll: 3.600 Pitch: 0 10.100  | 10P: -0.200
+WARNING: Tank 10S is above extreme level
+10S Valve: 0
+2024-04-19 01:40:10.999500 Roll: 3.825 Pitch: 0 10.100  | 10P: -0.300
+WARNING: Tank 10S is above extreme level
+10S Valve: 0
+2024-04-19 01:40:11.665587 Roll: 4.050 Pitch: 0 10.100  | 10P: -0.400
+WARNING: Tank 10S is above extreme level
+10S Valve: 0
+2024-04-19 01:40:12.359680 Roll: 4.275 Pitch: 0 10.100  | 10P: -0.500
+WARNING: Tank 10S is above extreme level
+10S Valve: 0
+2024-04-19 01:40:12.959786 Roll: 4.275 Pitch: 0 10.100  | 10P: -0.500
+WARNING: Tank 10S is above extreme level
+10S Valve: 0
+2024-04-19 01:40:13.508531 Roll: 4.275 Pitch: 0 10.100  | 10P: -0.500
+WARNING: Tank 10S is above extreme level
+10S Valve: 0
+2024-04-19 01:40:14.521228 Roll: 4.275 Pitch: 0 10.100  | 10P: -0.500
+WARNING: Tank 10S is above extreme level
+10S Valve: 0
+2024-04-19 01:40:14.950719 Roll: 4.275 Pitch: 0 10.100  | 10P: -0.500
+WARNING: Tank 10S is above extreme level
+10S Valve: 0
+2024-04-19 01:40:15.455437 Roll: 4.275 Pitch: 0 10.100  | 10P: -0.500
+WARNING: Tank 10S is above extreme level
+10S Valve: 0
+2024-04-19 01:40:16.110632 Roll: 3.900 Pitch: 0 10.000  | 10P: -0.400
+WARNING: Tank 10S is above extreme level
+10S Valve: 0
+2024-04-19 01:40:16.567224 Roll: 3.525 Pitch: 0 9.900  | 10P: -0.300
+WARNING: Tank 10S is above extreme level
+10S Valve: 0
+2024-04-19 01:40:17.206652 Roll: 3.150 Pitch: 0 9.800  | 10P: -0.200
+WARNING: Tank 10S is above extreme level
+10S Valve: 0
+2024-04-19 01:40:18.133029 Roll: 2.775 Pitch: 0 9.700  | 10P: -0.100
+WARNING: Tank 10S is above extreme level
+10S Valve: 0
+2024-04-19 01:40:20.755404 Roll: 2.400 Pitch: 0 9.600  | 10P: 0.000
+WARNING: Tank 10S is above extreme level
+10S Valve: 0
+2024-04-19 01:40:21.576987 Roll: 2.025 Pitch: 0 9.500  | 10P: 0.100
+WARNING: Tank 10S is above extreme level
+10S Valve: 0
+2024-04-19 01:40:22.363182 Roll: 1.650 Pitch: 0 9.400  | 10P: 0.200
+WARNING: Tank 10S is above extreme level
+10S Valve: 0
+2024-04-19 01:40:23.116242 Roll: 1.275 Pitch: 0 9.300  | 10P: 0.300
+WARNING: Tank 10S is above extreme level
+10S Valve: 0
+2024-04-19 01:40:24.697642 Roll: 0.900 Pitch: 0 9.200  | 10P: 0.400
+WARNING: Tank 10S is above extreme level
+10S Valve: 0
+2024-04-19 01:40:25.838486 Roll: 0.525 Pitch: 0 9.100  | 10P: 0.500
+WARNING: Tank 10S is above extreme level
+10S Valve: 0
+2024-04-19 01:40:26.344059 Roll: 0.150 Pitch: 0 9.000  | 10P: 0.600
+10S Valve: 0
+2024-04-19 01:40:26.926180 Roll: -0.225 Pitch: 0 8.900  | 10P: 0.700
+10S Valve: 0
+2024-04-19 01:40:27.683354 Roll: -0.600 Pitch: 0 8.800  | 10P: 0.800
+10S Valve: 0
+2024-04-19 01:40:28.357357 Roll: -0.975 Pitch: 0 8.700  | 10P: 0.900
+10S Valve: 0
+2024-04-19 01:40:28.993929 Roll: -1.350 Pitch: 0 8.600  | 10P: 1.000
+10S Valve: 0
+2024-04-19 01:40:29.667869 Roll: -1.725 Pitch: 0 8.500  | 10P: 1.100
+10S Valve: 0
+2024-04-19 01:40:30.186761 Roll: -2.100 Pitch: 0 8.400  | 10P: 1.200
+10S Valve: 0
+2024-04-19 01:40:30.947024 Roll: -2.475 Pitch: 0 8.300  | 10P: 1.300
+10S Valve: 0
+2024-04-19 01:40:33.440013 Roll: -2.850 Pitch: 0 8.200  | 10P: 1.400
+10S Valve: 0
+2024-04-19 01:40:44.071741 Roll: -3.225 Pitch: 0 8.100  | 10P: 1.500
+10S Valve: 0
+2024-04-19 01:40:46.247322 Roll: -3.600 Pitch: 0 8.000  | 10P: 1.600
+10S Valve: 0
+2024-04-19 01:40:47.312902 Roll: -3.975 Pitch: 0 7.900  | 10P: 1.700
+10S Valve: 0
+2024-04-19 01:40:48.116758 Roll: -4.350 Pitch: 0 7.800  | 10P: 1.800
+10S Valve: 0
+2024-04-19 01:40:48.966336 Roll: -4.725 Pitch: 0 7.700  | 10P: 1.900
+10S Valve: 0
+2024-04-19 01:40:51.505759 Roll: -5.100 Pitch: 0 7.600  | 10P: 2.000
+10S Valve: 0
+2024-04-19 01:40:52.575574 Roll: -5.475 Pitch: 0 7.500  | 10P: 2.100
+10S Valve: 0
+2024-04-19 01:40:53.739008 Roll: -5.850 Pitch: 0 7.400  | 10P: 2.200
+10S Valve: 0
+2024-04-19 01:40:54.749659 Roll: -6.225 Pitch: 0 7.300  | 10P: 2.300
+10S Valve: 0
+2024-04-19 01:40:55.514312 Roll: -6.600 Pitch: 0 7.200  | 10P: 2.400
+10S Valve: 0
+2024-04-19 01:40:56.993061 Roll: -6.975 Pitch: 0 7.100  | 10P: 2.500
+10S Valve: 0
+2024-04-19 01:40:57.659741 Roll: -7.350 Pitch: 0 7.000  | 10P: 2.600
+10S Valve: 0
+2024-04-19 01:40:58.362521 Roll: -7.725 Pitch: 0 6.900  | 10P: 2.700
+10S Valve: 0
+2024-04-19 01:40:59.382649 Roll: -8.100 Pitch: 0 6.800  | 10P: 2.800
+10S Valve: 0
+2024-04-19 01:41:00.220979 Roll: -8.475 Pitch: 0 6.700  | 10P: 2.900
+10S Valve: 0
+2024-04-19 01:41:01.229604 Roll: -8.850 Pitch: 0 6.600  | 10P: 3.000
+10S Valve: 0
+2024-04-19 01:41:02.494755 Roll: -9.225 Pitch: 0 6.500  | 10P: 3.100
+10S Valve: 0
+2024-04-19 01:41:06.101486 Roll: -9.600 Pitch: 0 6.400  | 10P: 3.200
+10S Valve: 0
+2024-04-19 01:41:07.348674 Roll: -9.975 Pitch: 0 6.300  | 10P: 3.300
+10S Valve: 0
+2024-04-19 01:41:08.669598 Roll: -10.350 Pitch: 0 6.200  | 10P: 3.400
+10S Valve: 0
+2024-04-19 01:41:11.048821 Roll: -10.725 Pitch: 0 6.100  | 10P: 3.500
+10S Valve: 0
+2024-04-19 01:41:12.811614 Roll: -11.100 Pitch: 0 6.000  | 10P: 3.600
+10S Valve: 0
+2024-04-19 01:41:13.469707 Roll: -11.475 Pitch: 0 5.900  | 10P: 3.700
+10S Valve: 0
+2024-04-19 01:41:14.115626 Roll: -11.850 Pitch: 0 5.800  | 10P: 3.800
+10S Valve: 0
+2024-04-19 01:41:14.982352 Roll: -12.225 Pitch: 0 5.700  | 10P: 3.900
+10S Valve: 0
+2024-04-19 01:41:15.724191 Roll: -12.600 Pitch: 0 5.600  | 10P: 4.000
+10S Valve: 0
+2024-04-19 01:41:16.735023 Roll: -12.975 Pitch: 0 5.500  | 10P: 4.100
+10S Valve: 0
+2024-04-19 01:41:17.226682 Roll: -13.350 Pitch: 0 5.400  | 10P: 4.200
+10S Valve: 0
+2024-04-19 01:41:17.745792 Roll: -13.725 Pitch: 0 5.300  | 10P: 4.300
+10S Valve: 0
+2024-04-19 01:41:18.306992 Roll: -14.100 Pitch: 0 5.200  | 10P: 4.400
+10S Valve: 0
+2024-04-19 01:41:18.756485 Roll: -14.475 Pitch: 0 5.100  | 10P: 4.500
+10S Valve: 0
+2024-04-19 01:41:19.194401 Roll: -14.850 Pitch: 0 5.000  | 10P: 4.600
+10S Valve: 0
+2024-04-19 01:41:19.778531 Roll: -15.225 Pitch: 0 4.900  | 10P: 4.700
+10S Valve: 0
+2024-04-19 01:41:20.426785 Roll: -15.600 Pitch: 0 4.800  | 10P: 4.800
+10S Valve: 0
+2024-04-19 01:41:21.099587 Roll: -15.975 Pitch: 0 4.700  | 10P: 4.900
+10S Valve: 0
+2024-04-19 01:41:22.202673 Roll: -16.350 Pitch: 0 4.600  | 10P: 5.000
+10S Valve: 0
+2024-04-19 01:41:27.196773 Roll: -16.725 Pitch: 0 4.500  | 10P: 5.100
+10S Valve: 0
+2024-04-19 01:41:27.911796 Roll: -17.100 Pitch: 0 4.400  | 10P: 5.200
+10S Valve: 0
+2024-04-19 01:41:28.878978 Roll: -17.475 Pitch: 0 4.300  | 10P: 5.300
+10S Valve: 0
+2024-04-19 01:41:29.476784 Roll: -17.850 Pitch: 0 4.200  | 10P: 5.400
+10S Valve: 0
+2024-04-19 01:41:30.257125 Roll: -18.225 Pitch: 0 4.100  | 10P: 5.500
+10S Valve: 0
+2024-04-19 01:41:30.835449 Roll: -18.600 Pitch: 0 4.000  | 10P: 5.600
+10S Valve: 0
+2024-04-19 01:41:31.790956 Roll: -18.975 Pitch: 0 3.900  | 10P: 5.700
+10S Valve: 0
+2024-04-19 01:41:32.390801 Roll: -19.350 Pitch: 0 3.800  | 10P: 5.800
+10S Valve: 0
+2024-04-19 01:41:33.223013 Roll: -19.725 Pitch: 0 3.700  | 10P: 5.900
+10S Valve: 0
+2024-04-19 01:41:34.032654 Roll: -20.100 Pitch: 0 3.600  | 10P: 6.000
+10S Valve: 0
+2024-04-19 01:41:34.520776 Roll: -20.475 Pitch: 0 3.500  | 10P: 6.100
+10S Valve: 0
+2024-04-19 01:41:35.413909 Roll: -20.850 Pitch: 0 3.400  | 10P: 6.200
+10S Valve: 0
+2024-04-19 01:46:37.332265 Roll: -21.225 Pitch: 0 3.300  | 10P: 6.300
+10S Valve: 0
+2024-04-19 01:46:46.368005 Roll: -21.600 Pitch: 0 3.200  | 10P: 6.400
+10S Valve: 0
+2024-04-19 01:46:48.575362 Roll: -21.975 Pitch: 0 3.100  | 10P: 6.500
+10S Valve: 0
+2024-04-19 01:46:50.268190 Roll: -22.350 Pitch: 0 3.000  | 10P: 6.600
+10S Valve: 0
+2024-04-19 01:46:52.324611 Roll: -22.725 Pitch: 0 2.900  | 10P: 6.700
+10S Valve: 0
+2024-04-19 01:46:55.245818 Roll: -23.100 Pitch: 0 2.800  | 10P: 6.800
+10S Valve: 0
+2024-04-19 01:46:56.830888 Roll: -23.475 Pitch: 0 2.700  | 10P: 6.900
+10S Valve: 0
+2024-04-19 01:46:57.588497 Roll: -23.850 Pitch: 0 2.600  | 10P: 7.000
+10S Valve: 0
+2024-04-19 01:46:58.296442 Roll: -24.225 Pitch: 0 2.500  | 10P: 7.100
+10S Valve: 0
+2024-04-19 01:46:58.786203 Roll: -24.600 Pitch: 0 2.400  | 10P: 7.200
+10S Valve: 0
+2024-04-19 01:46:59.236696 Roll: -24.975 Pitch: 0 2.300  | 10P: 7.300
+10S Valve: 0
+2024-04-19 01:46:59.709699 Roll: -25.350 Pitch: 0 2.200  | 10P: 7.400
+10S Valve: 0
+2024-04-19 01:47:00.224703 Roll: -25.725 Pitch: 0 2.100  | 10P: 7.500
+10S Valve: 0
+2024-04-19 01:47:00.762253 Roll: -26.100 Pitch: 0 2.000  | 10P: 7.600
+10S Valve: 0
+2024-04-19 01:47:01.378360 Roll: -26.475 Pitch: 0 1.900  | 10P: 7.700
+10S Valve: 0
+2024-04-19 01:47:01.922042 Roll: -26.850 Pitch: 0 1.800  | 10P: 7.800
+10S Valve: 0
+2024-04-19 01:47:02.439389 Roll: -27.225 Pitch: 0 1.700  | 10P: 7.900
+10S Valve: 0
+2024-04-19 01:47:03.024756 Roll: -27.600 Pitch: 0 1.600  | 10P: 8.000
+10S Valve: 0
+2024-04-19 01:47:03.911072 Roll: -27.975 Pitch: 0 1.500  | 10P: 8.100
+10S Valve: 0
+2024-04-19 01:47:06.695836 Roll: -28.350 Pitch: 0 1.400  | 10P: 8.200
+10S Valve: 0
+2024-04-19 01:47:07.910615 Roll: -28.725 Pitch: 0 1.300  | 10P: 8.300
+10S Valve: 0
+2024-04-19 01:47:09.452125 Roll: -29.100 Pitch: 0 1.200  | 10P: 8.400
+10S Valve: 0
+2024-04-19 01:47:11.003271 Roll: -29.475 Pitch: 0 1.100  | 10P: 8.500
+10S Valve: 0
+2024-04-19 01:47:14.066594 Roll: -29.850 Pitch: 0 1.000  | 10P: 8.600
+10S Valve: 0
+2024-04-19 01:47:14.726295 Roll: -30.225 Pitch: 0 0.900  | 10P: 8.700
+10S Valve: 0
+2024-04-19 01:47:15.245071 Roll: -30.600 Pitch: 0 0.800  | 10P: 8.800
+10S Valve: 0
+2024-04-19 01:47:15.869173 Roll: -30.975 Pitch: 0 0.700  | 10P: 8.900
+10S Valve: 0
+2024-04-19 01:47:16.615191 Roll: -31.350 Pitch: 0 0.600  | 10P: 9.000
+10S Valve: 0
+2024-04-19 01:47:17.830806 Roll: -31.725 Pitch: 0 0.500  | 10P: 9.100
+WARNING: Tank 10P is above extreme level
+10S Valve: 0
+2024-04-19 01:47:18.736077 Roll: -32.100 Pitch: 0 0.400  | 10P: 9.200
+WARNING: Tank 10P is above extreme level
+10S Valve: 0
+2024-04-19 01:47:20.062505 Roll: -32.475 Pitch: 0 0.300  | 10P: 9.300
+WARNING: Tank 10P is above extreme level
+10S Valve: 0
+2024-04-19 01:47:21.758759 Roll: -32.850 Pitch: 0 0.200  | 10P: 9.400
+WARNING: Tank 10P is above extreme level
+10S Valve: 0
+2024-04-19 01:47:24.808102 Roll: -33.225 Pitch: 0 0.100  | 10P: 9.500
+WARNING: Tank 10P is above extreme level
+10S Valve: 0
+2024-04-19 01:47:42.541119 Roll: -33.600 Pitch: 0 0.000  | 10P: 9.600
+WARNING: Tank 10P is above extreme level
+10S Valve: 0

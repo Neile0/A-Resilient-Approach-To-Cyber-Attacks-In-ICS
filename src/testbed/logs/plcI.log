@@ -1,0 +1,195 @@
+DEBUG get_query: SELECT value FROM vessel_cps WHERE name = ? AND pid = ?
+DEBUG set_query: UPDATE vessel_cps SET value = ? WHERE name = ? AND pid = ?
+DEBUG EnipProtocol server addr:  192.168.1.60
+DEBUG: concatenating server address with default port.
+DEBUG enip _start_server cmd:  ['/usr/bin/python3', '-m', 'cpppo.server.enip', '--no-print', '--log', 'logs/protocols_tests_enip_server', '--address', '192.168.1.60:44818', 'ROLL_ANGLE:4=REAL', 'PITCH_ANGLE:4=REAL', '10P_LVL:4=REAL', '13P_LVL:4=REAL', '13S_LVL:4=REAL', '10S_LVL:4=REAL']
+DEBUG: PLCI enters pre_loop
+DEBUG: PLCI enters main_loop
+DEBUG: Receiving 10P_LVL from 192.168.1.126
+DEBUG: Received 0.0
+DEBUG: Receiving 13P_LVL from 192.168.1.5
+DEBUG: Received 0.0
+DEBUG: Receiving 13S_LVL from 192.168.1.184
+DEBUG: Received 0.0
+DEBUG: Receiving 10S_LVL from 192.168.1.116
+DEBUG: Received 6.099999904632568
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 2248, in <module>
+    sys.exit( main() )
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 2177, in main
+    with connector_cls( host=addr[0], port=addr[1], timeout=timeout, profiler=profiler,
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 1250, in __init__
+    super( connector, self ).__init__( host=host, port=port, timeout=timeout, **kwds )
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 436, in __init__
+    self.conn		= socket.create_connection( self.addr, timeout=timeout )
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 2248, in <module>
+    sys.exit( main() )
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 2177, in main
+    with connector_cls( host=addr[0], port=addr[1], timeout=timeout, profiler=profiler,
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 1250, in __init__
+    super( connector, self ).__init__( host=host, port=port, timeout=timeout, **kwds )
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 436, in __init__
+    self.conn		= socket.create_connection( self.addr, timeout=timeout )
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+2024-04-19 01:39:55.193186: Roll: -5.250° Pitch: 0.000° | Levels are 10P: 0.000, 13P: 0.000, 13S: 0.000, 10S: 6.100
+DEBUG: Receiving 10P_LVL from 192.168.1.126
+DEBUG: Received 1.899999976158142
+DEBUG: Receiving 13P_LVL from 192.168.1.5
+DEBUG: Received 5.0
+DEBUG: Receiving 13S_LVL from 192.168.1.184
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 2248, in <module>
+    sys.exit( main() )
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 2177, in main
+    with connector_cls( host=addr[0], port=addr[1], timeout=timeout, profiler=profiler,
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 1250, in __init__
+    super( connector, self ).__init__( host=host, port=port, timeout=timeout, **kwds )
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 436, in __init__
+    self.conn		= socket.create_connection( self.addr, timeout=timeout )
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+DEBUG: Error lvl is None and Error could not convert string to float: "b'"
+DEBUG: Receiving 13S_LVL from 192.168.1.184
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 2248, in <module>
+    sys.exit( main() )
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 2177, in main
+    with connector_cls( host=addr[0], port=addr[1], timeout=timeout, profiler=profiler,
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 1250, in __init__
+    super( connector, self ).__init__( host=host, port=port, timeout=timeout, **kwds )
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 436, in __init__
+    self.conn		= socket.create_connection( self.addr, timeout=timeout )
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+OSError: [Errno 113] No route to host
+DEBUG: Error lvl is None and Error could not convert string to float: "b'"
+DEBUG: Receiving 13S_LVL from 192.168.1.184
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 2248, in <module>
+    sys.exit( main() )
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 2177, in main
+    with connector_cls( host=addr[0], port=addr[1], timeout=timeout, profiler=profiler,
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 1250, in __init__
+    super( connector, self ).__init__( host=host, port=port, timeout=timeout, **kwds )
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 436, in __init__
+    self.conn		= socket.create_connection( self.addr, timeout=timeout )
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+OSError: [Errno 113] No route to host
+DEBUG: Error lvl is None and Error could not convert string to float: "b'"
+DEBUG: Receiving 13S_LVL from 192.168.1.184
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 2248, in <module>
+    sys.exit( main() )
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 2177, in main
+    with connector_cls( host=addr[0], port=addr[1], timeout=timeout, profiler=profiler,
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 1250, in __init__
+    super( connector, self ).__init__( host=host, port=port, timeout=timeout, **kwds )
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 436, in __init__
+    self.conn		= socket.create_connection( self.addr, timeout=timeout )
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+OSError: [Errno 113] No route to host
+DEBUG: Error lvl is None and Error could not convert string to float: "b'"
+DEBUG: Receiving 13S_LVL from 192.168.1.184
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 2248, in <module>
+    sys.exit( main() )
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 2177, in main
+    with connector_cls( host=addr[0], port=addr[1], timeout=timeout, profiler=profiler,
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 1250, in __init__
+    super( connector, self ).__init__( host=host, port=port, timeout=timeout, **kwds )
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 436, in __init__
+    self.conn		= socket.create_connection( self.addr, timeout=timeout )
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+OSError: [Errno 113] No route to host
+DEBUG: Error lvl is None and Error could not convert string to float: "b'"
+DEBUG: Receiving 13S_LVL from 192.168.1.184
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 2248, in <module>
+    sys.exit( main() )
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 2177, in main
+    with connector_cls( host=addr[0], port=addr[1], timeout=timeout, profiler=profiler,
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 1250, in __init__
+    super( connector, self ).__init__( host=host, port=port, timeout=timeout, **kwds )
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 436, in __init__
+    self.conn		= socket.create_connection( self.addr, timeout=timeout )
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+OSError: [Errno 113] No route to host
+DEBUG: Error lvl is None and Error could not convert string to float: "b'"
+DEBUG: Receiving 13S_LVL from 192.168.1.184
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 2248, in <module>
+    sys.exit( main() )
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 2177, in main
+    with connector_cls( host=addr[0], port=addr[1], timeout=timeout, profiler=profiler,
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 1250, in __init__
+    super( connector, self ).__init__( host=host, port=port, timeout=timeout, **kwds )
+  File "/usr/local/lib/python3.8/dist-packages/cpppo/server/enip/client.py", line 436, in __init__
+    self.conn		= socket.create_connection( self.addr, timeout=timeout )
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+OSError: [Errno 113] No route to host
